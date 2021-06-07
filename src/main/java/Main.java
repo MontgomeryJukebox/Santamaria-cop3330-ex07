@@ -16,7 +16,7 @@ public class Main {
         System.out.println("The area is");
         float area_ft = length * width;
         float area_m = area_ft * FT_TO_M;
-        System.out.printf("%d square feet\n", area_ft);
-        System.out.printf("%f square meters\n", area_m);
+        System.out.printf("%d square feet\n", (int) area_ft);
+        System.out.printf("%.3f square meters\n", area_m);
     }
 }
